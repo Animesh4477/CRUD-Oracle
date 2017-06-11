@@ -15,7 +15,7 @@ public class TestCRUD {
 	    	String query = "INSERT INTO emp"
 					+ "(EMPID, EMPNAME, OCCUPATION) " + "VALUES"
 					+ "(1,'Animesh','Engineer')";
-					
+	    				
 	    	db.insertRecord(query);
 			
 		} catch (SQLException e) {
